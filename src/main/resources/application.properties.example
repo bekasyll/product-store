@@ -1,0 +1,9 @@
+spring.application.name=ProductStoreApp
+
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://localhost:5432/product_store_db
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
